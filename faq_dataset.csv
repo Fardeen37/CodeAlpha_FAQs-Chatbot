@@ -1,0 +1,272 @@
+﻿Question,Answer
+What is Artificial Intelligence?,Artificial Intelligence is the simulation of human intelligence in machines that can perform tasks requiring cognitive abilities like learning and problem-solving.
+What is Machine Learning?,Machine Learning is a subset of AI that enables systems to learn and improve from data without explicit programming.
+What is the difference between AI and ML?,AI is the broader concept of machines performing intelligent tasks while ML is a specific approach to achieve AI through learning from data.
+What are the main types of Machine Learning?,The three main types are supervised learning unsupervised learning and reinforcement learning.
+What is supervised learning?,Supervised learning is a type of ML where models are trained on labeled data to predict outcomes on new data.
+What is unsupervised learning?,Unsupervised learning finds patterns in data without labeled examples using techniques like clustering and dimensionality reduction.
+What is reinforcement learning?,Reinforcement learning trains agents to make decisions by learning from rewards and penalties in an environment.
+What is deep learning?,Deep learning is a subset of ML using neural networks with multiple layers to learn complex patterns in data.
+What is a neural network?,A neural network is a computational model inspired by the human brain consisting of interconnected nodes that process information.
+What is an algorithm in ML?,An algorithm is a set of rules or instructions that a machine learning model follows to solve problems and make predictions.
+What is training data?,Training data is the dataset used to teach a machine learning model to make predictions or decisions.
+What is a feature in ML?,A feature is an individual measurable property of an object or phenomenon being observed and analyzed.
+What is overfitting?,Overfitting occurs when a model learns the training data too well including noise making it perform poorly on new data.
+What is underfitting?,Underfitting happens when a model is too simple to capture underlying patterns in data resulting in poor performance.
+What is cross-validation?,Cross-validation is a technique to evaluate model performance by training and testing on different subsets of data.
+What is linear regression?,Linear regression is a supervised learning algorithm that models the relationship between variables using a straight line.
+What is logistic regression?,Logistic regression is a statistical method used for binary classification problems that predicts probabilities using the logistic function.
+What is a decision tree?,A decision tree is a tree-like model that makes decisions by splitting data based on feature values to reach predictions.
+What are random forests?,Random forests combine multiple decision trees to improve accuracy and reduce overfitting through ensemble learning.
+What is Support Vector Machine?,SVM is a supervised learning algorithm that finds the optimal boundary to separate different classes in data.
+What is K-Nearest Neighbors?,KNN is a simple algorithm that classifies data points based on the majority class of their k nearest neighbors.
+What is Naive Bayes?,Naive Bayes is a probabilistic classifier based on Bayes theorem assuming independence between features.
+What is clustering?,Clustering is an unsupervised learning technique that groups similar data points together without labeled examples.
+What is K-means clustering?,K-means is a clustering algorithm that partitions data into k clusters by minimizing within-cluster distances.
+What is dimensionality reduction?,Dimensionality reduction reduces the number of features in data while preserving important information to improve efficiency.
+What is Principal Component Analysis?,PCA is a dimensionality reduction technique that transforms data into lower dimensions using principal components.
+What is gradient descent?,Gradient descent is an optimization algorithm that minimizes error by iteratively adjusting model parameters in the steepest descent direction.
+What is backpropagation?,Backpropagation is an algorithm used to train neural networks by propagating errors backward through the network to update weights.
+What is a loss function?,A loss function measures the difference between predicted and actual values to guide model training optimization.
+What is regularization?,Regularization adds penalties to model complexity to prevent overfitting and improve generalization to new data.
+What is L1 regularization?,L1 regularization adds absolute values of parameters as penalty encouraging sparse models with fewer features.
+What is L2 regularization?,L2 regularization adds squared parameter values as penalty preventing any single parameter from becoming too large.
+What is bias in ML?,Bias is the systematic error that occurs when a model makes incorrect assumptions about the data patterns.
+What is variance in ML?,Variance is the sensitivity of model predictions to changes in training data causing inconsistent results.
+What is the bias-variance tradeoff?,The bias-variance tradeoff is the balance between model complexity where reducing bias increases variance and vice versa.
+What is ensemble learning?,Ensemble learning combines multiple models to achieve better performance than individual models through averaging or voting.
+What is bagging?,Bagging trains multiple models on different subsets of training data and combines their predictions to reduce variance.
+What is boosting?,Boosting sequentially trains weak learners where each new model focuses on correcting errors of previous models.
+What is feature selection?,Feature selection chooses the most relevant features from data to improve model performance and reduce complexity.
+What is feature engineering?,Feature engineering creates new features from existing data to better represent patterns for machine learning models.
+What is data preprocessing?,Data preprocessing cleans transforms and prepares raw data for machine learning algorithms to work effectively.
+What is normalization?,Normalization scales features to a common range typically 0-1 to ensure all features contribute equally to model training.
+What is standardization?,Standardization transforms features to have zero mean and unit variance making them comparable across different scales.
+What is one-hot encoding?,One-hot encoding converts categorical variables into binary vectors where each category becomes a separate binary feature.
+What is a confusion matrix?,A confusion matrix is a table showing correct and incorrect predictions for each class in classification problems.
+What is accuracy?,Accuracy is the ratio of correct predictions to total predictions measuring overall model performance.
+What is precision?,Precision is the ratio of true positive predictions to all positive predictions measuring exactness of positive predictions.
+What is recall?,Recall is the ratio of true positive predictions to all actual positive cases measuring completeness of positive detection.
+What is F1-score?,F1-score is the harmonic mean of precision and recall providing a balanced measure of model performance.
+What is ROC curve?,ROC curve plots true positive rate against false positive rate showing classifier performance across different thresholds.
+What is AUC?,AUC is the area under the ROC curve measuring the ability of a classifier to distinguish between classes.
+What is convolutional neural network?,CNN is a deep learning architecture designed for processing grid-like data such as images using convolutional layers.
+What is a convolutional layer?,A convolutional layer applies filters to input data detecting local patterns and features through convolution operations.
+What is pooling in CNN?,Pooling reduces spatial dimensions of feature maps by summarizing regions typically using maximum or average values.
+What is a fully connected layer?,A fully connected layer connects every neuron to all neurons in the previous layer used for final classification decisions.
+What is activation function?,An activation function introduces non-linearity to neural networks enabling them to learn complex patterns and relationships.
+What is ReLU activation?,ReLU Rectified Linear Unit sets negative values to zero while keeping positive values unchanged preventing vanishing gradients.
+What is sigmoid activation?,Sigmoid activation maps input values to range 0-1 commonly used for binary classification and probability outputs.
+What is softmax activation?,Softmax converts a vector of values into probability distribution summing to 1 used for multi-class classification.
+What is recurrent neural network?,RNN processes sequential data by maintaining hidden states that carry information from previous time steps.
+What is LSTM?,LSTM Long Short-Term Memory is an RNN variant that uses gates to control information flow solving vanishing gradient problems.
+What is GRU?,GRU Gated Recurrent Unit is a simplified LSTM variant that combines forget and input gates for efficient sequence processing.
+What is transformer architecture?,Transformer uses self-attention mechanisms to process sequences in parallel achieving superior performance in NLP tasks.
+What is attention mechanism?,Attention allows models to focus on relevant parts of input sequence when making predictions or generating outputs.
+What is self-attention?,Self-attention computes relationships between all positions in a sequence allowing each position to attend to others.
+What is BERT?,BERT Bidirectional Encoder Representations from Transformers is a pre-trained language model using bidirectional context for understanding.
+What is GPT?,GPT Generative Pre-trained Transformer is an autoregressive language model trained to generate coherent text sequences.
+What is tokenization?,Tokenization splits text into smaller units like words or subwords that can be processed by NLP models.
+What is word embedding?,Word embedding represents words as dense vectors in continuous space where similar words have similar representations.
+What is Word2Vec?,Word2Vec creates word embeddings by predicting context words or target words using shallow neural networks.
+What is TF-IDF?,TF-IDF Term Frequency-Inverse Document Frequency measures word importance by considering frequency and rarity across documents.
+What is named entity recognition?,NER identifies and classifies named entities like persons organizations and locations in text data.
+What is sentiment analysis?,Sentiment analysis determines emotional tone or opinion expressed in text classifying it as positive negative or neutral.
+What is machine translation?,Machine translation automatically converts text from one language to another using statistical or neural methods.
+What is text classification?,Text classification assigns predefined categories or labels to text documents based on their content and meaning.
+What is question answering?,Question answering systems automatically provide answers to natural language questions using knowledge bases or text corpora.
+What is computer vision?,Computer vision enables machines to interpret and understand visual information from images and videos like humans.
+What is image classification?,Image classification assigns labels or categories to images based on their visual content and features.
+What is object detection?,Object detection identifies and locates multiple objects within images providing bounding boxes and class labels.
+What is semantic segmentation?,Semantic segmentation assigns class labels to every pixel in an image creating detailed object boundaries.
+What is face recognition?,Face recognition identifies or verifies individuals by analyzing facial features and comparing them to known faces.
+What is optical character recognition?,OCR converts images containing text into machine-readable text format enabling digital text processing.
+What is generative adversarial network?,GAN consists of generator and discriminator networks competing against each other to create realistic synthetic data.
+What is the generator in GAN?,The generator creates fake data samples attempting to fool the discriminator into thinking they are real.
+What is the discriminator in GAN?,The discriminator distinguishes between real and fake data samples providing feedback to improve the generator.
+What is StyleGAN?,StyleGAN generates high-quality images with controllable style and content by manipulating latent space representations.
+What is image augmentation?,Image augmentation creates additional training data by applying transformations like rotation scaling and flipping to existing images.
+What is transfer learning?,Transfer learning applies knowledge gained from pre-trained models to new related tasks reducing training time and data requirements.
+What is fine-tuning?,Fine-tuning adjusts pre-trained model parameters on new data to adapt the model for specific tasks or domains.
+What is Q-learning?,Q-learning is a model-free reinforcement learning algorithm that learns action values to find optimal policies.
+What is policy gradient?,Policy gradient directly optimizes policy parameters by computing gradients of expected rewards with respect to policy.
+What is actor-critic?,Actor-critic combines value-based and policy-based methods where actor selects actions and critic evaluates them.
+What is exploration vs exploitation?,Exploration tries new actions to discover better strategies while exploitation uses known good actions for immediate rewards.
+What is epsilon-greedy strategy?,Epsilon-greedy balances exploration and exploitation by choosing random actions with probability epsilon and greedy actions otherwise.
+What is Monte Carlo method?,Monte Carlo estimates values by averaging returns from complete episodes without requiring model knowledge.
+What is temporal difference learning?,TD learning updates value estimates using bootstrapped targets from subsequent states without waiting for episode completion.
+What is Markov Decision Process?,MDP provides mathematical framework for decision-making where outcomes depend only on current state not history.
+What is reward shaping?,Reward shaping modifies reward function to guide learning toward desired behaviors while maintaining optimal policies.
+What is multi-agent reinforcement learning?,Multi-agent RL studies scenarios where multiple agents learn simultaneously potentially cooperating or competing.
+What is imitation learning?,Imitation learning trains agents to mimic expert behavior using demonstrations instead of trial-and-error exploration.
+What is TensorFlow?,TensorFlow is an open-source machine learning framework developed by Google for building and deploying ML models.
+What is PyTorch?,PyTorch is an open-source deep learning framework developed by Facebook providing dynamic computation graphs and intuitive APIs.
+What is scikit-learn?,Scikit-learn is a Python library providing simple and efficient tools for data mining and machine learning tasks.
+What is Keras?,Keras is a high-level neural network API that runs on top of TensorFlow providing user-friendly model building.
+What is Hugging Face?,Hugging Face provides pre-trained transformer models and tools for natural language processing tasks and model sharing.
+What is OpenCV?,OpenCV is an open-source computer vision library providing tools for image processing and computer vision applications.
+What is NLTK?,NLTK Natural Language Toolkit is a Python library providing tools and resources for natural language processing tasks.
+What is spaCy?,spaCy is an industrial-strength NLP library providing fast and accurate text processing with pre-trained models.
+What is Pandas?,Pandas is a Python library providing data structures and analysis tools for handling structured data efficiently.
+What is NumPy?,NumPy provides fundamental package for scientific computing in Python with powerful n-dimensional array objects.
+What is Matplotlib?,Matplotlib is a Python plotting library producing publication-quality figures for data visualization and analysis.
+What is Jupyter Notebook?,Jupyter Notebook is an interactive computing environment allowing code execution documentation and visualization in web browsers.
+What is GPU in ML?,GPU Graphics Processing Unit accelerates machine learning computations through parallel processing especially for deep learning.
+What is CUDA?,CUDA is NVIDIA parallel computing platform enabling GPU acceleration for machine learning and scientific computing applications.
+What is distributed training?,Distributed training spreads model training across multiple machines or GPUs to handle large datasets and models.
+What is batch size?,Batch size determines how many samples are processed together before updating model parameters during training.
+What is learning rate?,Learning rate controls how much model parameters change during each update affecting training speed and convergence.
+What is epoch?,An epoch represents one complete pass through the entire training dataset during model training.
+What is hyperparameter?,Hyperparameters are configuration settings that control learning algorithm behavior and must be set before training.
+What is hyperparameter tuning?,Hyperparameter tuning finds optimal hyperparameter values to maximize model performance through systematic search methods.
+What is grid search?,Grid search exhaustively tries all combinations of specified hyperparameter values to find the best configuration.
+What is random search?,Random search samples hyperparameter combinations randomly often finding good solutions faster than exhaustive grid search.
+What is Bayesian optimization?,Bayesian optimization uses probabilistic models to efficiently search hyperparameter space by balancing exploration and exploitation.
+What is early stopping?,Early stopping terminates training when validation performance stops improving preventing overfitting and saving computation time.
+What is dropout?,Dropout randomly sets some neurons to zero during training preventing overfitting and improving model generalization.
+What is batch normalization?,Batch normalization normalizes layer inputs to accelerate training and improve model stability and performance.
+What is data augmentation?,Data augmentation artificially increases training data size by applying transformations that preserve labels but modify inputs.
+What is curriculum learning?,Curriculum learning trains models on easy examples first then gradually increases difficulty improving learning efficiency.
+What is few-shot learning?,Few-shot learning enables models to learn new tasks with very few training examples by leveraging prior knowledge.
+What is zero-shot learning?,Zero-shot learning performs tasks without any training examples by using auxiliary information like descriptions or attributes.
+What is meta-learning?,Meta-learning learns how to learn enabling models to quickly adapt to new tasks with minimal training data.
+What is continual learning?,Continual learning allows models to learn new tasks sequentially without forgetting previously learned knowledge.
+What is adversarial training?,Adversarial training improves model robustness by training on adversarially perturbed examples that fool the model.
+What are adversarial examples?,Adversarial examples are inputs with small perturbations that cause models to make incorrect predictions despite appearing normal.
+What is model interpretability?,Model interpretability refers to understanding how models make decisions and which features influence predictions.
+What is LIME?,LIME Local Interpretable Model-agnostic Explanations explains individual predictions by approximating models locally with interpretable ones.
+What is SHAP?,SHAP SHapley Additive exPlanations assigns importance values to features based on their contribution to individual predictions.
+What is feature importance?,Feature importance measures how much each input feature contributes to model predictions helping understand model behavior.
+What is model compression?,Model compression reduces model size and computational requirements while maintaining performance through techniques like pruning and quantization.
+What is knowledge distillation?,Knowledge distillation trains smaller student models to mimic larger teacher models transferring knowledge while reducing complexity.
+What is quantization?,Quantization reduces numerical precision of model parameters and computations to decrease memory usage and increase speed.
+What is pruning?,Pruning removes unnecessary model parameters or connections reducing model size while maintaining acceptable performance levels.
+What is federated learning?,Federated learning trains models across decentralized devices without centralizing data preserving privacy and reducing communication.
+What is differential privacy?,Differential privacy adds controlled noise to protect individual privacy while enabling statistical analysis of datasets.
+What is fairness in ML?,Fairness ensures machine learning models do not discriminate against protected groups and treat all individuals equitably.
+What is algorithmic bias?,Algorithmic bias occurs when ML models produce unfair or prejudiced results due to biased training data or algorithms.
+What is data drift?,Data drift occurs when input data distribution changes over time potentially degrading model performance in production.
+What is concept drift?,Concept drift happens when the relationship between input features and target variable changes over time.
+What is model monitoring?,Model monitoring tracks model performance in production detecting issues like drift degradation or failures.
+What is A/B testing in ML?,A/B testing compares different model versions by randomly assigning users to treatments measuring performance differences.
+What is MLOps?,MLOps combines machine learning and DevOps practices to streamline model development deployment and maintenance workflows.
+What is model versioning?,Model versioning tracks different iterations of models enabling reproducibility rollbacks and performance comparison over time.
+What is continuous integration for ML?,CI/ML automatically tests validates and integrates model changes ensuring quality and reliability throughout development lifecycle.
+What is model serving?,Model serving deploys trained models in production environments making them accessible for real-time or batch predictions.
+What is edge computing in ML?,Edge computing runs ML models on local devices reducing latency bandwidth usage and privacy concerns.
+What is AutoML?,AutoML automatically selects algorithms tunes hyperparameters and builds ML pipelines reducing need for expert knowledge.
+What is neural architecture search?,NAS automatically designs neural network architectures by searching through possible configurations to optimize performance.
+What is few-shot prompting?,Few-shot prompting provides language models with few examples in the input to guide them toward desired task behavior.
+What is in-context learning?,In-context learning enables models to perform new tasks by conditioning on examples or instructions provided within input context.
+What is prompt engineering?,Prompt engineering designs input prompts to elicit desired responses from language models without additional training.
+What is chain-of-thought prompting?,Chain-of-thought prompting guides language models to break down complex problems into step-by-step reasoning processes.
+What is retrieval augmented generation?,RAG combines language models with external knowledge retrieval to provide more accurate and up-to-date responses.
+What is vector database?,Vector database stores and retrieves high-dimensional embeddings efficiently supporting similarity search for ML applications.
+What is embedding similarity?,Embedding similarity measures how close two vectors are in embedding space indicating semantic or feature similarity.
+What is fine-tuning vs prompting?,Fine-tuning modifies model parameters while prompting provides task instructions without changing the underlying model weights.
+What is instruction tuning?,Instruction tuning trains language models to follow diverse natural language instructions improving their ability to understand tasks.
+What is RLHF?,RLHF Reinforcement Learning from Human Feedback trains models using human preferences as reward signals for alignment.
+What is constitutional AI?,Constitutional AI trains models to behave helpfully honestly and harmlessly using principles and self-critique mechanisms.
+What is multimodal AI?,Multimodal AI processes and integrates information from multiple modalities like text images audio and video.
+What is vision-language model?,Vision-language models understand and generate content involving both visual and textual information simultaneously.
+What is CLIP?,CLIP Contrastive Language-Image Pre-training learns joint representations of text and images enabling zero-shot image classification.
+What is text-to-image generation?,Text-to-image generation creates visual content from natural language descriptions using generative models like diffusion models.
+What is diffusion model?,Diffusion models generate data by learning to reverse a gradual noising process creating high-quality samples.
+What is stable diffusion?,Stable Diffusion is an open-source text-to-image diffusion model capable of generating detailed images from text prompts.
+What is variational autoencoder?,VAE learns compressed representations of data in latent space enabling generation of new similar samples.
+What is autoencoder?,Autoencoder learns efficient data representations by training to reconstruct inputs through compressed hidden representations.
+What is anomaly detection?,Anomaly detection identifies unusual patterns or outliers in data that deviate significantly from normal behavior.
+What is time series forecasting?,Time series forecasting predicts future values based on historical temporal data patterns and trends.
+What is ARIMA?,ARIMA AutoRegressive Integrated Moving Average is a statistical model for analyzing and forecasting time series data.
+What is seasonal decomposition?,Seasonal decomposition separates time series into trend seasonal and residual components for better analysis.
+What is feature scaling?,Feature scaling transforms features to similar ranges ensuring algorithms treat all features equally during training and inference.
+What is cross-entropy loss?,Cross-entropy loss measures difference between predicted and true probability distributions commonly used for classification tasks.
+What is mean squared error?,MSE calculates average of squared differences between predicted and actual values commonly used for regression problems.
+What is gradient clipping?,Gradient clipping limits gradient magnitudes during training preventing exploding gradients and improving training stability.
+What is learning rate scheduling?,Learning rate scheduling adjusts learning rate during training often decreasing it to achieve better convergence.
+What is warm-up in training?,Warm-up gradually increases learning rate at training start helping models converge more stably from initialization.
+What is model ensemble?,Model ensemble combines predictions from multiple models to achieve better performance than individual models.
+What is stacking?,Stacking trains a meta-model to combine predictions from multiple base models learning optimal combination strategies.
+What is blending?,Blending combines model predictions using weighted averages where weights are determined through validation performance.
+What is online learning?,Online learning updates models incrementally as new data arrives enabling adaptation to changing patterns continuously.
+What is batch learning?,Batch learning trains models on entire datasets at once requiring complete data availability before training begins.
+What is active learning?,Active learning selectively queries most informative samples for labeling to minimize annotation effort while maximizing performance.
+What is semi-supervised learning?,Semi-supervised learning uses both labeled and unlabeled data to improve model performance beyond purely supervised approaches.
+What is self-supervised learning?,Self-supervised learning creates supervisory signals from data itself without requiring human annotations for pre-training.
+What is contrastive learning?,Contrastive learning learns representations by maximizing agreement between similar samples and minimizing agreement between dissimilar ones.
+What is metric learning?,Metric learning learns distance functions that bring similar samples closer and push dissimilar samples apart.
+What is triplet loss?,Triplet loss trains embeddings using anchor positive and negative samples to learn discriminative feature representations.
+What is siamese network?,Siamese network uses shared weights to process paired inputs enabling comparison and similarity measurement tasks.
+What is recommendation system?,Recommendation systems predict user preferences for items suggesting personalized content or products based on behavior.
+What is collaborative filtering?,Collaborative filtering recommends items based on preferences of similar users without requiring item content information.
+What is content-based filtering?,Content-based filtering recommends items similar to those users previously liked based on item features and descriptions.
+What is matrix factorization?,Matrix factorization decomposes user-item interaction matrices into lower-dimensional factors revealing latent preference patterns.
+What is word sense disambiguation?,WSD determines which meaning of ambiguous words is intended in specific contexts using surrounding text.
+What is dependency parsing?,Dependency parsing analyzes grammatical structure by identifying relationships between words in sentences.
+What is part-of-speech tagging?,POS tagging assigns grammatical categories like noun verb adjective to each word in text.
+What is coreference resolution?,Coreference resolution identifies when different expressions refer to the same entity throughout a text.
+What is text summarization?,Text summarization creates concise versions of longer documents while preserving essential information and meaning.
+What is extractive summarization?,Extractive summarization selects and combines existing sentences from source text to create summaries.
+What is abstractive summarization?,Abstractive summarization generates new text that captures main ideas potentially using words not in original text.
+What is language modeling?,Language modeling predicts probability distributions over sequences of words or tokens in natural language.
+What is perplexity?,Perplexity measures how well language models predict text with lower values indicating better predictive performance.
+What is beam search?,Beam search explores multiple promising paths simultaneously when generating sequences balancing quality and computational efficiency.
+What is greedy decoding?,Greedy decoding selects highest probability token at each step when generating sequences often leading to suboptimal results.
+What is temperature sampling?,Temperature sampling controls randomness in text generation with higher values producing more diverse outputs.
+What is top-k sampling?,Top-k sampling restricts token selection to k most probable options reducing unlikely choices during generation.
+What is nucleus sampling?,Nucleus sampling selects tokens from smallest set whose cumulative probability exceeds threshold providing dynamic vocabulary.
+What is BLEU score?,BLEU evaluates machine translation quality by measuring n-gram overlap between generated and reference translations.
+What is ROUGE score?,ROUGE evaluates text summarization quality by measuring overlap between generated summaries and reference summaries.
+What is data leakage?,Data leakage occurs when future information inadvertently influences model training leading to overly optimistic performance estimates.
+What is target leakage?,Target leakage happens when features contain information that would not be available at prediction time in real scenarios.
+What is temporal leakage?,Temporal leakage uses future information to predict past events violating causal ordering in time series problems.
+What is covariate shift?,Covariate shift occurs when input distribution changes between training and test data while relationships remain constant.
+What is domain adaptation?,Domain adaptation adjusts models trained on source domain to perform well on different but related target domains.
+What is catastrophic forgetting?,Catastrophic forgetting occurs when neural networks lose previously learned knowledge upon learning new tasks.
+What is elastic weight consolidation?,EWC prevents catastrophic forgetting by constraining important parameters when learning new tasks based on Fisher information.
+What is replay buffer?,Replay buffer stores past experiences enabling models to rehearse old tasks while learning new ones.
+What is progressive neural networks?,Progressive networks add new modules for each task while preserving previous modules preventing catastrophic forgetting.
+What is multi-task learning?,Multi-task learning trains single model on multiple related tasks simultaneously sharing representations to improve generalization.
+What is task interference?,Task interference occurs when learning multiple tasks simultaneously hurts performance on individual tasks due to competing objectives.
+What is gradient-based meta-learning?,Gradient-based meta-learning learns initialization parameters that enable fast adaptation to new tasks through few gradient steps.
+What is model-agnostic meta-learning?,MAML finds model parameters that can quickly adapt to new tasks with minimal gradient updates.
+What is prototypical networks?,Prototypical networks perform few-shot classification by comparing query examples to prototype representations of each class.
+What is matching networks?,Matching networks perform few-shot learning by attending over support set examples to classify query examples.
+What is relation networks?,Relation networks learn to compare and measure relationships between examples for few-shot learning tasks.
+What is memory-augmented networks?,Memory-augmented networks use external memory mechanisms to store and retrieve information for learning tasks.
+What is neural Turing machine?,NTM combines neural networks with external memory enabling algorithmic reasoning and program learning capabilities.
+What is differentiable neural computer?,DNC extends memory-augmented networks with improved memory allocation and addressing mechanisms for complex reasoning.
+What is graph neural network?,GNN processes graph-structured data by passing messages between connected nodes to learn node and graph representations.
+What is graph convolutional network?,GCN applies convolution operations to graph data aggregating information from neighboring nodes in spectral or spatial domains.
+What is graph attention network?,GAT uses attention mechanisms to weigh importance of neighboring nodes when aggregating information in graphs.
+What is message passing?,Message passing in GNNs involves nodes exchanging information with neighbors through iterative communication rounds.
+What is node classification?,Node classification assigns labels to individual nodes in graphs based on node features and graph structure.
+What is link prediction?,Link prediction determines likelihood of connections between nodes in graphs for recommendation and completion tasks.
+What is graph classification?,Graph classification assigns labels to entire graphs based on their structural properties and node features.
+What is knowledge graph?,Knowledge graph represents entities and relationships as interconnected nodes enabling reasoning and question answering.
+What is graph embedding?,Graph embedding learns low-dimensional vector representations of nodes edges or entire graphs preserving structural information.
+What is node2vec?,Node2vec learns node embeddings by performing biased random walks that capture both local and global graph structure.
+What is GraphSAGE?,GraphSAGE generates node embeddings by sampling and aggregating features from node neighborhoods in large graphs.
+What is federated averaging?,Federated averaging aggregates model updates from distributed clients without sharing raw data preserving privacy.
+What is differential privacy budget?,Privacy budget limits total privacy loss by constraining cumulative noise addition across multiple queries or computations.
+What is homomorphic encryption?,Homomorphic encryption enables computations on encrypted data without decryption preserving privacy during processing.
+What is secure aggregation?,Secure aggregation combines distributed inputs without revealing individual contributions protecting participant privacy.
+What is membership inference attack?,Membership inference determines whether specific data points were used in model training threatening privacy.
+What is model inversion attack?,Model inversion reconstructs training data from model parameters or outputs compromising data confidentiality.
+What is property inference attack?,Property inference determines aggregate properties of training data from model behavior without accessing individual samples.
+What is backdoor attack?,Backdoor attack embeds hidden triggers in models causing malicious behavior when specific patterns are encountered.
+What is data poisoning?,Data poisoning manipulates training data to degrade model performance or introduce vulnerabilities during deployment.
+What is adversarial robustness?,Adversarial robustness measures model stability against carefully crafted inputs designed to cause incorrect predictions.
+What is certified defense?,Certified defense provides mathematical guarantees about model robustness within specified input perturbation bounds.
+What is randomized smoothing?,Randomized smoothing adds random noise during inference to provide certified robustness guarantees against adversarial examples.
+What is gradient masking?,Gradient masking occurs when defenses hide gradients without improving actual robustness creating false security.
+What is transfer attack?,Transfer attack uses adversarial examples crafted for one model to fool different target models.
+What is universal adversarial perturbation?,Universal perturbation is single noise pattern that fools models on large fraction of inputs across different examples.
+What is one-pixel attack?,One-pixel attack demonstrates that changing single pixel can fool deep neural networks in image classification.
+What is fast gradient sign method?,FGSM generates adversarial examples by taking single step in direction of gradient sign with respect to loss.
+What is projected gradient descent?,PGD creates stronger adversarial examples through multiple iterative steps with projection to constraint set.
+What is Carlini-Wagner attack?,C&W attack optimizes adversarial perturbations using sophisticated loss functions to find minimal effective perturbations.
+What is model stealing?,Model stealing extracts knowledge from black-box models through query access without direct parameter access.
+What is evasion attack?,Evasion attack modifies inputs at test time to cause misclassification while avoiding detection mechanisms.
+What is Byzantine robustness?,Byzantine robustness ensures distributed learning systems function correctly despite some participants behaving maliciously.
+What is robust aggregation?,Robust aggregation combines distributed updates while filtering out malicious or corrupted contributions from Byzantine participants.
